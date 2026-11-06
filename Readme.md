@@ -7,9 +7,28 @@ mkdir some_folder
 cd some_folder
 git clone git@github.com:pjsier/michigan-primary-election-maps-2026.git
 git clone https://github.com/SethArchambault/detroit-election-maps-3d-viewer.git
-detroit-election-maps-3d-viewer
-cd 
+cd detroit-election-maps-3d-viewer
 ```
+
+You'll probably have to update permissions for this file.
+```
+sudo chmod 755 3d_viewer
+```
+
+Then you can run and see the detroit election maps in 3d
+```
+./3d_viewer
+```
+
+Press Escape to fiddle with settings.
+
+Try loading a different shader style, or tweaking shader settings.
+
+Try switching between data fields, and adjusting elements.
+
+Check out detroit-election-maps.cfg to see how things are configured, though editing this might break things.
+
+
 
 
 
