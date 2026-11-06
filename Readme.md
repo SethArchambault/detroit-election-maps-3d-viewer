@@ -20,6 +20,10 @@ Then you can run and see the detroit election maps in 3d
 ./3d_viewer
 ```
 
+Move around with the mouse and WASD keys
+
+Press Space to look at a precinct (really a bounding box around a precinct).
+
 Press Escape to fiddle with settings.
 
 Try loading a different shader style, or tweaking shader settings.
